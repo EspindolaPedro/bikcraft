@@ -7,13 +7,11 @@
     <link rel="stylesheet" href="src\css\style.css">
 </head>
 <body>
-    <header id="header">          
+    <header id="header-bg">          
         <div class="header container">
-
             <a id="logo" href=""><img src="src\img\bikcraft.svg" alt="Logo"></a>
-
-            <nav id="nav">
-                <button id="btn-mobile" area-expanded="false">Menu
+            <nav id="nav" aria-label="primaria">
+                <button id="btn-mobile" area-expanded="false">
                     <span id="hamburguer"></span>
                 </button>
                 <ul class="menu">
@@ -22,9 +20,18 @@
                     <li><a href="contato">Contato</a></li>
                 </ul>
             </nav>
-        
         </div>
     </header>
+
+    <main class="introducao-bg">
+        <div class="introducao">
+            <h1>Bicicletas feitas sob medida.</h1>
+            <p>
+            Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.
+            </p>
+            <img href="src\img\fotos\introducao.jpg" alt="Bicicleta elétrica preta"></img>
+        </div>
+    </main>
 
     <script src="src\script\menu.js"></script>
 </body>

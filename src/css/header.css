@@ -1,5 +1,5 @@
 .container {
-    max-width: 1140px;
+    max-width: 1200px;
     align-items: center;
 }
 header {
@@ -31,16 +31,17 @@ div.header {
     padding: .5rem;
     cursor: pointer;
     position: relative;
+    font-size: 1rem;
 }
 .menu a::after {
     content: '';
     display: block;
     position: absolute;
+    height: 2px;
+    margin-top: 4px;
     width: 0;
     left: 0;
-    height: 3px;
     background-color: #FFF;
-    margin-top: 2px;
     transition: 0.3s;
 }
 .menu a:hover::after {
@@ -49,6 +50,9 @@ div.header {
 @media (max-width: 700px) {
     div.header {
         padding: 1rem;
+    }
+    .menu a::after {
+        display: none;
     }
     .menu li, a {
         list-style: none;

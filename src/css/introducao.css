@@ -1,0 +1,10 @@
+.container {
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.introducao img {
+    max-width: 100%;
+    display: block;
+}
