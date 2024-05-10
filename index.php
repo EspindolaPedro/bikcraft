@@ -29,11 +29,11 @@
     <main class="introducao-bg">
         <div class="introducao container">
             <div class="introducao-conteudo">
-                <h1>Bicicletas feitas sob medida<span class="ponto">.</span></h1>
-                <p>
+                <h1 class="texto-grande">Bicicletas feitas sob medida<span class="ponto">.</span></h1>
+                <p class="texto-medio">
                 Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.
                 </p>
-                <a href="./bicicletas.html">Escolha a sua</a>
+                <a href="./bicicletas.html" class="botao">Escolha a sua</a>
             </div>           
                 <img src="src\img\fotos\introducao.jpg" alt="Bicicleta elétrica preta"></img>         
         </div>

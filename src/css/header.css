@@ -3,7 +3,7 @@
     align-items: center;
 }
 header {
-    background-color: #000;
+    background-color: var(--p-12);
     height:80px;
 }
 div.header {
@@ -21,11 +21,11 @@ div.header {
 }
 .menu li a {
     text-decoration: none;
-    color: #FFF;
+    color:  var(--w-0);
 }
 #btn-mobile {
     display: none;
-    color:#FFF;
+    color: var( --w-0);
 }
 .menu a {
     display: block;
@@ -44,7 +44,7 @@ div.header {
     margin-top: 4px;
     width: 0;
     left: 0;
-    background-color: #FFF;
+    background-color: var(--w-0);
     transition: 0.3s;
 }
 .menu a:hover::after {
@@ -60,7 +60,7 @@ div.header {
     .menu li, a {
         list-style: none;
         text-decoration: none;
-        color: #FFF;
+        color: var(--w-0);
         font-size: 1.3rem;
         font-weight: 400;
     }
