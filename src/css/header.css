@@ -1,5 +1,5 @@
 .container {
-    max-width: 1200px;
+    max-width: 1160px;
     align-items: center;
 }
 header {
@@ -13,6 +13,7 @@ div.header {
     margin:0 auto;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px 0 20px;
 }
  .menu {
     display: flex;
@@ -32,6 +33,8 @@ div.header {
     cursor: pointer;
     position: relative;
     font-size: 1rem;
+    font-family:'Poppins';
+    font-weight: 400;
 }
 .menu a::after {
     content: '';
