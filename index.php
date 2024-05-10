@@ -39,6 +39,36 @@
         </div>
     </main>
 
+    <article class="bicicletas-lista">
+        <h2 class="font-1-xxl">Escolha a sua <span class="ponto">.</span></h2>
+
+        <ul>
+            <li>
+              <a href="">
+                  <img src="src\img\bicicletas\magic-home.jpg" alt="Bibicletas">
+                  <h3 class="texto-grande p-11">Magic Might</h3>
+                  <span class="font-2-m c-8">RS 2499 </span>
+              </a>
+            </li>
+
+            <li>    
+            <a href="">
+                <img src="src\img\bicicletas\nimbus-home.jpg" alt="Bibicletas">
+                <h3 class="texto-grande p-11">Nimbus Stark</h3>
+                <span class="font-2-m c-8"> R$ 3400</span>
+            </a>
+            </li>
+            <li>  
+            <a href="">
+                <img src="src\img\bicicletas\nebula-home.jpg" alt="Bibicletas">
+                <h3 class="texto-grande p-11">Nebula Cosmic</h3>
+                <span class="font-2-m c-8"> R$ 400 </span>
+            </a>
+            </li>
+       
+        </ul>
+    </article>
+
     <script src="src\script\menu.js"></script>
 </body>
 </html>
