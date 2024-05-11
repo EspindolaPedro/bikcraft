@@ -1,8 +1,3 @@
-.container {
-    max-width: 1160px;
-    align-items: center;
-    margin: 0 auto;
-}
 .introducao-bg {
     background:var(--p-12) ;
     color:  var( --w-0);
@@ -18,6 +13,7 @@
 }
 .introducao img {
     max-width: 100%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
@@ -55,7 +51,7 @@ div.introducao-conteudo {
         gap: 32px;
     }
     .introducao-conteudo h1 {
-        font-size: 32px;
+        font-size: 42px;
         margin-bottom: 16px;
     }
     div.introducao-conteudo {

@@ -46,28 +46,71 @@
             <li>
               <a href="">
                   <img src="src\img\bicicletas\magic-home.jpg" alt="Bibicletas">
-                  <h3 class="texto-grande p-11">Magic Might</h3>
-                  <span class="font-2-m c-8">RS 2499 </span>
+                  <h3 class="font-1-xl  p-11">Magic Might</h3>
+                  <span class="font-2-m c-8">R$ 2499 </span>
               </a>
             </li>
 
             <li>    
             <a href="">
                 <img src="src\img\bicicletas\nimbus-home.jpg" alt="Bibicletas">
-                <h3 class="texto-grande p-11">Nimbus Stark</h3>
+                <h3 class="font-1-xl  p-11">Nimbus Stark</h3>
                 <span class="font-2-m c-8"> R$ 3400</span>
             </a>
             </li>
             <li>  
             <a href="">
                 <img src="src\img\bicicletas\nebula-home.jpg" alt="Bibicletas">
-                <h3 class="texto-grande p-11">Nebula Cosmic</h3>
+                <h3 class="font-1-xl  p-11">Nebula Cosmic</h3>
                 <span class="font-2-m c-8"> R$ 400 </span>
             </a>
             </li>
        
         </ul>
     </article>
+
+    <article class="tecnologia-bg bg-p-11">
+        <div class="tecnologia container">
+            <div class="tecnologia-conteudo">
+                <span class="font-2-lb c-5">Tecnologia Avançada</span>
+                <h2 class="font-1-xxl w-0">você escolhe as suas cores e componentes<span class="ponto">.</span></h2>
+                <p class="font-2-l c-5">Cada Bikcraft é única e possui a sua identidade. As medidas serão exatas para o seu corpo e altura, garantindo maior conforto e ergonomia na sua pedalada. Você pode também personalizar completamente as suas cores.</p>
+                <a class="link" href="./bicicletas.html">Escolha um modelo</a>
+
+            <div class="tecnologia-vantagens">
+                <div>
+                    <img src="src\img\icones\eletrica.svg" alt="">
+                    <h3 class="font-1-m w-0">Motor Elétrico</h3>
+                    <p class="font-2-s c-5">Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
+                </div>
+                <div>
+                    <img src="src\img\icones\rastreador.svg" alt="">
+                    <h3  class="font-1-m w-0">Rastreador</h3>
+                    <p class="font-2-s c-5">Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
+                </div>
+            </div>
+            </div>
+            <div class="tecnologia-imagem">
+                <img src="src\img\fotos\tecnologia.jpg" alt="">
+            </div>
+        </div>           
+    </article>
+
+    <section class="parceiros" aria-label="Nossos Parceiros">
+    <h2 class="container font-1-xxl">Nossos parceiros <span class="ponto">.</span></h2>
+
+    <ul>
+        <li><img src="src\img\parceiros\caravan.svg" alt=""></li>
+        <li><img src="src\img\parceiros\ranek.svg" alt=""></li>
+        <li><img src="src\img\parceiros\handel.svg" alt=""></li>
+        <li><img src="src\img\parceiros\dogs.svg" alt=""></li>
+        <li><img src="src\img\parceiros\lescone.svg" alt=""></li>
+        <li><img src="src\img\parceiros\flexblog.svg" alt=""></li>
+        <li><img src="src\img\parceiros\wildbeast.svg" alt=""></li>
+        <li><img src="src\img\parceiros\surfbot.svg" alt=""></li>
+    </ul>
+
+    </section>
 
     <script src="src\script\menu.js"></script>
 </body>

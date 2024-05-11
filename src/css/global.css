@@ -24,3 +24,10 @@ ul {
     text-decoration: none;
     list-style: none;
 }
+img{
+    max-width: 100%;
+    display: block;
+}
+img[src$=".jpg"] {
+    border-radius: 4px;
+}
