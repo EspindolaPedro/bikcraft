@@ -22,6 +22,10 @@
     margin-right: auto;
     overflow-x:auto; /*cria um scroll no eixo x*/
 }
+#bicicleta .bicicletas-lista ul {
+    padding: 0px 0px 20px 0px;
+}
+
 .bicicletas-lista li { /*fazer elemento vazar para scroll*/
     flex:1; 
     min-width: 280px;

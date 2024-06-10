@@ -35,12 +35,23 @@ div.introducao-conteudo {
     margin-bottom: 20px;
 }
 
-@media (max-width:1000px)   {
-    .introducao h1 {
-        font-size:48px;
+@media (max-width:1040px)   {
+    .introducao-conteudo {
+       margin-top: 50px;
+    }
+
+    .introducao-conteudo h1 {
+        font-size:2.2rem;
+    }
+    
+    .introducao-conteudo p {
+        font-size: 1.1rem;
     }
 }
 @media (max-width:800px) {
+    .introducao-conteudo {
+        margin-top: initial;
+     }
     .introducao-bg {
         background: var(--p-12);
         padding-top: 40px;
