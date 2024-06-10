@@ -12,8 +12,11 @@
     font-family: 'Poppins';
     font-weight: 600;
     max-width: max-content;
+    border: none;
+    cursor: pointer;
 }
 .botao:hover {
+    animation: scaleUpDown 1s infinite; 
     background: linear-gradient(#FFB60d, #e59317);
     transition: .3s;
 }
@@ -29,6 +32,7 @@
     color: var(--a-1);
     font:500 1.5rem/1.5 "Poppins", sans-serif;
     text-transform: uppercase;
+    transition: .3s;
 }
 .link::after{
     content: "";
